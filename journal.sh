@@ -11,7 +11,7 @@ if [[ $LAST_MODIFY -eq $TODAY ]]
 then
   /usr/local/bin/nvim '+normal Go' -c 'startinsert' $FILEPATH
 else
-  date +%F%l:%M >> $FILEPATH
+  date '+%F %l:%M %p' >> $FILEPATH
   echo -e '\n---\n' >> $FILEPATH
   /usr/local/bin/nvim '+normal Go' -c 'startinsert' $FILEPATH
 fi
