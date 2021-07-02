@@ -19,7 +19,23 @@ Run `install.sh` to install all the scripts. By default scripts scripts will be 
 ## Tools
 
 1. [🧾 Journal](#journal)
+1. [🔋 Battery Notifier](#battery-notifier)
 
 ## <a id="journal"> 🗒 journal.sh
 
 Create your own writting logs.
+
+
+## <a id="battery-notifier"> 🔋 Battery Notifier
+
+### battery-notifier🔋
+A battery notifier for ubuntu 
+
+### Installation 🏗
+
+```bash
+sudo apt update && sudo apt upgrade 
+sudo apt install acpi 
+sudo apt install zenity
+```
+
