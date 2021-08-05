@@ -20,6 +20,8 @@ Run `install.sh` to install all the scripts. By default scripts scripts will be 
 
 1. [🧾 Journal](#journal)
 1. [🔋 Battery Notifier](#battery-notifier)
+1. [🐟 Ocean](#ocean)
+
 
 ## <a id="journal"> 🗒 journal.sh
 
@@ -39,3 +41,13 @@ sudo apt install acpi
 sudo apt install zenity
 ```
 
+## <a id="ocean"> Ocean
+
+**Copied from @rwxrob**
+
+### Installation
+
+```bash
+sudo apt install libcurses-perl
+sudo cpan -I Term::Animation
+```
